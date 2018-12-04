@@ -1,0 +1,42 @@
+
+                    Given a string s which contains lower alphabetic characters, the task is to check if its possible to  remove at most one character from this string in such a way that frequency of each distinct character becomes same in the string.
+Examples:
+
+
+Input  : s = “xyyz”
+Output : 1
+We can remove character ’y’ from above 
+string to make the frequency of each 
+character same. 
+
+Input : s = “xxxxyyzz” 
+Output : 0
+It is not possible to make frequency of 
+each character same just by removing at 
+most one character from above string.
+
+
+
+
+Input:
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains a string s.
+
+Output:
+For each test case in a new line print 1 if its possible to make frequencies of all characters equal else print 0.
+
+Constraints:
+1<=T<=1000
+1<=length of strings <=10000
+
+Example:
+Input:
+2
+xyyz
+xxxxyyzz
+Output:
+1
+0
+ 
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        

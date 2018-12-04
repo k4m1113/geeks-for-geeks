@@ -1,0 +1,58 @@
+
+                    Given two numbers represented by two lists, write a function that returns sum list. The sum list is list representation of addition of two input numbers.
+
+Suppose you have two linked list 5->4 ( 4 5 )and 5->4->3( 3 4 5) you have to return  a resultant linked list 0->9->3 (3 9 0).
+
+Input:
+
+In this problem, method takes two argument: the head of the first and second linked list. The function should not read any input from stdin/console.
+The struct Node has a data part which stores the data and a next pointer which points to the next element of the linked list. 
+There are multiple test cases. For each test case, this method will be called individually.
+
+Output:
+Add  two numbers represented by linked lists.
+
+Note: If you use "Test" or "Expected Output Button" use below example format
+Constraints:
+
+1<=T<=100
+
+1<=N<=100
+Example:
+
+Input:
+
+2
+
+2
+
+4 5
+
+3
+
+3 4 5
+
+2
+
+6 3
+
+1
+
+7
+
+Output:
+
+0 9 3  
+
+0 7
+
+Explaination:
+
+5->4 //linked link repsentation of 4 5
+
+5->4->3// linked list representation of 3 4 5
+
+0->9 ->3 // linked list representation of 3 9 0 resultant linked list.
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        

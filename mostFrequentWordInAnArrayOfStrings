@@ -1,0 +1,34 @@
+
+                    Given an array containing N words consisting of lowercase characters. Your task is to find the most frequent word in the array. If multiple words have same frequency, then print the word that comes first in lexicographical order.
+
+Input:
+The first line of the input contains a single integer T, denoting the number of test cases. Then T test case follows. Each test case contains 2 lines, the size of array N and N words separated by spaces.
+
+Output:
+For each testcase, output the most frequent word.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 1000
+
+Example:
+Input:
+3
+3
+geeks for geeks
+2
+hello world
+3
+world wide fund
+
+Output:
+geeks
+hello
+fund
+
+Explanation:
+Testcase 1: "geeks" comes 2 times.
+Testcase 2: "hello" and "world" both have 1 frequency. We print hello as it comes first in lexicographical order.
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        

@@ -1,0 +1,38 @@
+
+                    Geek loves to play with toys a lot. Once his parents bought him a new toy, that 'R', ‘B’ and ‘G’ characters. His parents gave him a task, that was to make a string of size 'n'. Each character of the string is either ‘R’, ‘B’ or ‘G’. In the final string there needs to be at least 'r' number of ‘R’, at least 'b' number of ‘B’ and at least 'g' number of ‘G’ (such that r + g + b <= n). Geek being busy with some other work requested for your help to find the count of all possible strings that can be formed using the given number of characters.
+
+Examples:
+
+
+Input : n = 4, r = 1, 
+        b = 1, g = 1.
+Output: 36 
+No. of 'R' >= 1, 
+No. of ‘G’ >= 1, 
+No. of ‘B’ >= 1 and 
+(No. of ‘R’) + (No. of ‘B’) + (No. of ‘G’) = n
+then following cases are possible:
+1. RBGR and its 12 permutation
+2. RBGB and its 12 permutation
+3. RBGG and its 12 permutation
+Hence answer is 36.
+
+Input:
+First line of the input contains an integer T denoting the number of test cases. Then T test cases follow. The only line of each test case contains four space separated integers denoting the values of 'n', 'r', 'g' & 'b' respectively.
+Output:
+For each test print a single line containg an integer denoting the count of number of all possible strings.
+Constraints:
+1<=T<=100
+1<=N<=20
+1<=r+g+b<=N
+Example:
+Input:
+2
+4 1 1 1
+4 2 0 1
+Output:
+36
+22
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        

@@ -1,0 +1,33 @@
+
+                    Given K sorted linked list your task is to merge them. You need to complete mergeKList  method that takes 2 arguments the arr[] that represents an array of  sorted linked lists and an integer N denoting the no. of sorted linked lists. The method needs to return  head of the obtained linked list. There are multiple test cases. For each test case, this method will be called individually.  
+
+Input:
+The first line of input will denote the no of Test cases then T test cases will follow . Each test cases will contain an integer N denoting the no of sorted linked list. Then in the next line all of the nodes of the linked list are fed to the input in a fashion where first integer will denote no of nodes of one of the sorted linked list and then all the elements of the linked list separated by space.
+
+Output:
+The output will be the nodes of the merged linked list .
+
+Constraints
+1<=T<=50
+1<=N<=10
+
+Example:
+
+Input
+1
+4
+3 1 2 3 2 4 5 2 5 6 2 7 8 
+
+Output:
+1 2 3 4 5 5 6 7 8
+
+Explanation 
+above test case has 4 sorted linked list of size 3, 2, 2, 2
+1st      list     1 -> 2-> 3
+2nd    list      4->5
+3rd     list      5->6
+4th     list      7->8
+The merged list will be 1->2->3->4->5->5->6->7->8
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        

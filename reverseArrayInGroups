@@ -1,0 +1,25 @@
+
+                    Given an array of positive integers. Reverse every sub-array of K group elements.
+
+Input:
+The first line of input contains a single integer T denoting the number of test cases. Then T test cases follow. Each test case consist of two lines of input. The first line of each test case consists of an integer N(size of array) and an integer K separated by a space. The second line of each test case contains N space separated integers denoting the array elements.
+
+Output:
+For test case, print the modified array.
+
+Constraints:
+1 ≤ T ≤ 200
+1 ≤ N ≤ 107
+1 ≤ A[i] ≤ 1018
+
+Example:
+Input
+1
+5 3
+1 2 3 4 5
+
+Output
+3 2 1 5 4
+                     
+                        ** For More Input/Output Examples Use 'Expected Output' option ** 
+                                        
